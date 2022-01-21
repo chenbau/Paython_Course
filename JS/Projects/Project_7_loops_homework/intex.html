@@ -126,14 +126,77 @@
         }
         console.log(temp);
 
-        
+
         //pring all sting characters with loop
         var name = "chen"
         for (let index = 0; index < name.length; index++) {
             console.log(name[index]);
 
         }
-        //chen
+
+        //While running 1-100 sum the numbers
+        let index = 0;
+        let temp = 0;
+        while (index < 100) {
+            index++
+            temp += index;
+        }
+        console.log(temp)
+
+        //option 2
+        index = 0, temp = 0
+        while (index < 100) {
+            index++
+            temp += index;
+        }
+        console.log(temp)
+
+        //While 1-100 printing numbers /5 with no rest
+        index = 0;
+        while (index < 100) {
+            index++
+            index % 5 == 0 && console.log(index)
+        }
+
+        //string print all characters of string with while
+        debugger
+        var username = "maya"
+        index = 0
+        while (index < username.length) {
+            console.log(username[index])
+            index++
+        }
+
+        //7 numbers print the lowest number
+
+        var ar = [3, 5, 7, 423, 3, 5, 6]
+        index = 0
+        var minimum = ar[0]
+        while (index < ar.length) {
+            minimum = ar[index] < minimum ? ar[index] : minimum;
+            index++
+        }
+        console.log(minimum)
+
+        //lotto
+
+        var lotto = []
+        while (lotto.length < 7) {
+            var temp = Math.floor(Math.random() * 36);
+            debugger
+            if (!lotto.includes(temp)) {
+                lotto.push(temp)
+            }
+        }
+        console.log(lotto)
+
+
+        //function get number could be everything , the function should bring you random number rounded(floor)
+
+        function getRandomNumber(range) {
+            return Math.floor(Math.random() * range)
+        }
+        console.log(getRandomNumber(30))
     </script>
 </body>
 

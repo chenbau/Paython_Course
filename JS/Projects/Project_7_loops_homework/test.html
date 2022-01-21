@@ -11,12 +11,14 @@
 <body>
     <script>
 
-        //pring all sting characters with loop
-        var name = "chen"
-        for (let index = 0; index < name.length; index++) {
+       
+        //function get number could be everything , the function should bring you random number rounded(floor)
 
-            console.log(name[index]);
+        function getRandomNumber(range){
+            return Math.floor (Math.random()*range)
         }
+        console.log(getRandomNumber(30))
+
 
 
     </script>
