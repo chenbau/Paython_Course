@@ -2,7 +2,7 @@ import myFuncs
 import platform
 import csv
 
-with open("test.csv", "r") as f:
+with open("test.csv", "w") as f:
     reader = csv.reader(f, delimiter="\t")
     # for i, line in enumerate(reader):
     #     print 'line[{}] = {}'.format(i, line)

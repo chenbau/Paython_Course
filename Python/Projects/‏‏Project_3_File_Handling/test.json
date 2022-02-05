@@ -1,3 +1,16 @@
-['{"name":"John", "age":30, "car":null}',
-'{"name":"John", "age":30, "car":null}',
-'{"name":"John", "age":30, "car":null}' ]
+{
+    "students": [
+        {
+            "name": "avi",
+            "age": 27.5
+        },
+        {
+            "name": "haim",
+            "age": 24.1
+        },
+        {
+            "name": "gerri",
+            "age": 27.5
+        }
+    ]
+}
